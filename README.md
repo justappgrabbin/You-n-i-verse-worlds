@@ -4,7 +4,7 @@ This is the index of the world runtimes, agent spaces, self-discovery games, per
 
 ## Worlds category
 
-- **[Worlds & games — source catalog](worlds/CATALOG.md)**: what each of the 20 inspected or located projects contains, its current limitations, and its original GitHub/Drive source.
+- **[Worlds & games — source catalog](worlds/CATALOG.md)**: what each of the 21 inspected or located projects contains, its current limitations, and its original GitHub/Drive source.
 - **[Worlds model](worlds/WORLD_MODEL.md)**: intended Worlds page, agent-only worlds, human/agent spaces, the personal Indieverse, activities, persistent identities and Morph boundaries.
 - **[Machine-readable registry](worlds/REGISTRY.json)**: a searchable JSON manifest for a later Worlds page.
 
