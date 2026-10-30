@@ -1,0 +1,227 @@
+{
+  "schema": "synthia.worlds.registry.v1",
+  "indexed_at": "2026-10-29",
+  "inventory_only": true,
+  "entries": [
+    {
+      "id": "world-01",
+      "name": "SynthWorld Godot 321",
+      "category": "world",
+      "stack": "Godot 4 / Android",
+      "audience": "Human + agent scene",
+      "contains": "Cynthia and generator agent, world/props, sentence service, Godot export; separate branch has HumanBody and local AI scene/theme director.",
+      "gap": "World scene sparse; Morph donor rigs and full discovery game not integrated; APK not tested.",
+      "source": "https://github.com/justappgrabbin/SYNTHWORLD-",
+      "inspection": "Source and branch inspected"
+    },
+    {
+      "id": "world-02",
+      "name": "Synthia World with MCPs",
+      "category": "world",
+      "stack": "Python",
+      "audience": "Human avatar + MCP/NPC agents",
+      "contains": "synthia_world.py, mcp_npc_system.py; avatars, locations, relationships, Hall of Gates, Resonance Garden, Learning Temple, Creation Workshop, Collective Heart.",
+      "gap": "SYNTHIA archive, probable match for user-named MCP SynthWorld; not proven deployed multiplayer or 3D.",
+      "source": "https://drive.google.com/file/d/1igXMuVwfNV0eijp-Bf1JH483k1oOf7zf/view",
+      "inspection": "ZIP and Python inspected"
+    },
+    {
+      "id": "world-03",
+      "name": "ConsciousnessRealm (York build bridge)",
+      "category": "world",
+      "stack": "HTML / Termux shell",
+      "audience": "Not established",
+      "contains": "Bootloader HTML and Android build script that expects another ConsciousnessRealm source ZIP and York builder.",
+      "gap": "The reviewed archive contains TWO files, not the complete realm/game or verified APK.",
+      "source": "https://drive.google.com/file/d/1lUsrZc9-criUahS9JjYJ0mQNClh2PDhH/view",
+      "inspection": "Both files listed; build script read"
+    },
+    {
+      "id": "world-04",
+      "name": "YOU-N-I-VERSE Cynthia Morph Game",
+      "category": "world",
+      "stack": "Node.js / Python",
+      "audience": "Personal three-world game; future community separate",
+      "contains": "Three persistent worlds, identity history, photo morph, RPG/story journeys, saved progress, Cynthia tool interface.",
+      "gap": "Local studio not evidence of online agent community or complete 3D residents.",
+      "source": "https://drive.google.com/file/d/1fDvIpqkXOawi_frUGg7M5UbX5TwlMygg/view",
+      "inspection": "ZIP README and source inspected"
+    },
+    {
+      "id": "world-05",
+      "name": "YOU-N-I-VERSE World Engine v2",
+      "category": "world",
+      "stack": "Standalone HTML / JavaScript",
+      "audience": "Offline local world/lab",
+      "contains": "Seeded terrain, animated agents, wave interference, fields, character JSON and SVG export; research workbench.",
+      "gap": "README says it is not a merge of the existing GitHub code; no backend, multiplayer or LLM.",
+      "source": "https://drive.google.com/file/d/165PuaP45XU2eGrDnKXm3_Bjf3VjESssm/view",
+      "inspection": "ZIP README/source inspected"
+    },
+    {
+      "id": "world-06",
+      "name": "YOU-N-I-VERSE HybridRepo",
+      "category": "world",
+      "stack": "JS / JSX / JSON",
+      "audience": "Agent scenario prototype",
+      "contains": "Birth input, gate logic, field scanner, agent spawner, ScenarioRoom, dashboard, memory log.",
+      "gap": "Small prototype, not a full running world.",
+      "source": "https://drive.google.com/file/d/1VGH2ti4KxDLw3o9dBP_mwDbAqQOfcZah/view",
+      "inspection": "ZIP files listed"
+    },
+    {
+      "id": "world-07",
+      "name": "SimWorldForge / ModularSimWorld",
+      "category": "world",
+      "stack": "C# .NET / FreeSO",
+      "audience": "Simulation framework",
+      "contains": "Simulation ticks and objects, autonomous agents, astrological characters, avatars and console world viewer; FreeSO file interfaces.",
+      "gap": "World viewer is console; FreeSO object code includes simulation placeholders; no playable APK verified.",
+      "source": "https://drive.google.com/file/d/1W3vc9LK60ViiuhlyhpZJvAbOh-q1Z-bf/view",
+      "inspection": "ZIP and C# inspected"
+    },
+    {
+      "id": "world-08",
+      "name": "Foundry + World Engine (GitHub Supabase edition)",
+      "category": "world",
+      "stack": "HTML / JS / Supabase",
+      "audience": "Browser visual world",
+      "contains": "Index.html contains sky/ground, environment, Foundry HUD and Supabase integration.",
+      "gap": "Earlier standalone implementation; backend connectivity not verified.",
+      "source": "https://github.com/justappgrabbin/World-engine-",
+      "inspection": "GitHub file inspected"
+    },
+    {
+      "id": "world-09",
+      "name": "Foundry World Engine Qualia",
+      "category": "world",
+      "stack": "Standalone HTML",
+      "audience": "Browser world and creation surface",
+      "contains": "World viewport, environment, Foundry drop area, qualia panels; separate mobile and API-enabled variants exist.",
+      "gap": "Distinct branch/files, not proven integrated with Godot.",
+      "source": "https://drive.google.com/file/d/1OF77LCrgO-R3LeAR1gDOjlQADX5OT75O/view",
+      "inspection": "HTML inspected"
+    },
+    {
+      "id": "world-10",
+      "name": "Consciousness Simulation Game",
+      "category": "world",
+      "stack": "HTML / JS",
+      "audience": "Browser agent activity/demo",
+      "contains": "Agent cards, control panel and simulation UI.",
+      "gap": "Not proof of a fully deployed ConsciousnessRealm.",
+      "source": "https://drive.google.com/file/d/1koGI05v9Zl_esuHpGVwz-drYp65afD19/view",
+      "inspection": "HTML inspected"
+    },
+    {
+      "id": "world-11",
+      "name": "Self-Discovery / Synthworld V2",
+      "category": "activity",
+      "stack": "React / Express / TypeScript",
+      "audience": "Human-facing self-cultivation game",
+      "contains": "Game HUD, coherence, Datababy collection, Gene Gnomes, awakening, mini-games, progression, server routes.",
+      "gap": "Not yet connected as a page in Godot or shared Worlds app.",
+      "source": "https://drive.google.com/file/d/1JayS0GclgyJRMh6QC8VO7Zk3FImVT5-c/view",
+      "inspection": "ZIP / React and server code inspected"
+    },
+    {
+      "id": "world-12",
+      "name": "Human Design Life-Sim v8",
+      "category": "activity",
+      "stack": "Built web frontend",
+      "audience": "Human-facing life-sim",
+      "contains": "index.html and compiled JS/CSS frontend artifacts.",
+      "gap": "Unminified source and actual gameplay unverified.",
+      "source": "https://drive.google.com/file/d/13y3e2vO3nw__Tl7b8frr4E6pCZ3sKbVW/view",
+      "inspection": "ZIP paths inspected"
+    },
+    {
+      "id": "world-13",
+      "name": "SynthWorld Consciousness donors",
+      "category": "donor",
+      "stack": "TS / Python / Godot packages",
+      "audience": "World orchestration source collection",
+      "contains": "World orchestrator, symbolic parser, consciousness field and many nested engines/starters.",
+      "gap": "Mixed collection rather than single finished world; variants may diverge.",
+      "source": "https://drive.google.com/file/d/1qjr0u4I81kaBS6JF36xcgDMWlHRGEvXg/view",
+      "inspection": "ZIP and README inspected"
+    },
+    {
+      "id": "world-14",
+      "name": "YOU-N-I-VERSE Game Unit patch",
+      "category": "donor",
+      "stack": "React / TypeScript",
+      "audience": "Games and world launch interface",
+      "contains": "Adds game-unit route and launcher; references GameEngineX, GameAssetStudio, SimsConverterStudio; adds Resonance ZIPs.",
+      "gap": "Overlay requires existing browser baseline; not a new complete world.",
+      "source": "https://drive.google.com/file/d/1BvNtRrwZsYxOcnYVmGiKgZrWVqVKy_YP/view",
+      "inspection": "Handoff/source inspected"
+    },
+    {
+      "id": "world-15",
+      "name": "YOU-N-I-VERSE Browser / IDE",
+      "category": "donor",
+      "stack": "React / Node",
+      "audience": "Worlds access/dev shell",
+      "contains": "Browser dashboard and built-in developer studio plus standalone IDE extraction.",
+      "gap": "Some heavy payloads intentionally excluded; does not establish a live shared world.",
+      "source": "https://drive.google.com/file/d/1ULik7DcfS7O5R60BcP7dr1Nj7stQNtOV/view",
+      "inspection": "ZIP README inspected"
+    },
+    {
+      "id": "world-16",
+      "name": "WorldGen panorama generator",
+      "category": "donor",
+      "stack": "Python / GPU image diffusion",
+      "audience": "World environment generator",
+      "contains": "Panorama fill/generation, inpaint, segmentation, depth and splat utilities.",
+      "gap": "Asset creation pipeline, not gameplay world; GPU requirements.",
+      "source": "https://drive.google.com/file/d/1Lop7ONxHDnd8AYRSfA9GyzXjV-mtpuI0/view",
+      "inspection": "ZIP files inspected"
+    },
+    {
+      "id": "world-17",
+      "name": "Synthia GameForge",
+      "category": "donor",
+      "stack": "TS / Vite",
+      "audience": "Game engine/builder",
+      "contains": "GameForge, GameGAN, Unreal adapter, media engine, GitHub speed dial.",
+      "gap": "Builder source; not a completed world or a verified Unreal integration.",
+      "source": "https://drive.google.com/file/d/1tmgkAHg-JqNOxtdxhcY2wSSSVpg2vgbw/view",
+      "inspection": "ZIP source inspected"
+    },
+    {
+      "id": "world-18",
+      "name": "VERSE origin and adventure sites",
+      "category": "donor",
+      "stack": "HTML / JS / Python",
+      "audience": "Cross-site access hub",
+      "contains": "Origin, vault/pipeline, Resonance social site, Adventure games/agents site, Prosperity site.",
+      "gap": "README still lists WebSockets and agent initialization as future steps.",
+      "source": "https://github.com/justappgrabbin/VERSE",
+      "inspection": "GitHub README/tree inspected"
+    },
+    {
+      "id": "world-19",
+      "name": "Synthia Morph Forge Offline",
+      "category": "donor",
+      "stack": "HTML",
+      "audience": "Morph asset/interface donor",
+      "contains": "An offline Morph Forge HTML project was located.",
+      "gap": "Capabilities not deeply audited; do not classify as playable world.",
+      "source": "https://drive.google.com/file/d/1d-YeKt3bD5OKiwMzF4DH4lDO0q7Bz66M/view",
+      "inspection": "Metadata verified"
+    },
+    {
+      "id": "world-20",
+      "name": "Paper World HTML",
+      "category": "donor",
+      "stack": "HTML",
+      "audience": "Page/world experiment",
+      "contains": "paper-world-1767275247917.html identified.",
+      "gap": "Source not yet inspected; status and relationship to full world unknown.",
+      "source": "https://drive.google.com/file/d/1CTNi2RsR60eXts8z0AYPzc_saOTuMDgg/view",
+      "inspection": "Metadata verified"
+    }
+  ]
+}
