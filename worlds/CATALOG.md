@@ -148,6 +148,13 @@ Catalog date: 2026-10-29. These are source-code findings, NOT proof of installed
 - **Missing or unverified:** Source not yet inspected; status and relationship to full world unknown.
 - **Inspection:** Metadata verified. **[Original source](https://drive.google.com/file/d/1CTNi2RsR60eXts8z0AYPzc_saOTuMDgg/view)**.
 
+### Synthia Light Mobile (Nodejs-1)
+
+- **Platform:** Node.js / Express / TypeScript / Kaboom.js. **Audience / role:** mobile-first world and sprite builder with playable web games; not an agent-only world.
+- **Contains:** Synthia Light Mobile app, a responsive world builder with tiles/sprites/entities, JSON game-spec compiler, /play game route, JupyterLite-based journal page and API documentation. Source includes src/server.ts, src/routes/games-lite.ts, scripts/game_maker.cjs, termux/setup.sh and public game sprites.
+- **Missing or unverified:** No proof of live hosting, integration into the YOU-N-I-VERSE Worlds page, or conversion into a full 3D agent reality. Nodejs-1 ZIP contains an embedded .git directory and Replit agent state; do not import those into a shared repository.
+- **Inspection:** ZIP README, package.json, source listing and server code inspected; not launched. **[Original source](https://drive.google.com/file/d/1RPGsH9N9UgmZNST6TdgtzyoMUasLVNY2/view)**.
+
 ## Alternate/donor locations
 
 - [SynthWorld-321 original source ZIP](https://drive.google.com/file/d/10n4q1tZc165YQx7fc3Fn0hwtX-_rycae/view).
