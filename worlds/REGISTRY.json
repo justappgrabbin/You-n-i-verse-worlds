@@ -222,6 +222,17 @@
       "gap": "Source not yet inspected; status and relationship to full world unknown.",
       "source": "https://drive.google.com/file/d/1CTNi2RsR60eXts8z0AYPzc_saOTuMDgg/view",
       "inspection": "Metadata verified"
+    },
+    {
+      "id": "world-21",
+      "name": "Synthia Light Mobile (Nodejs-1)",
+      "category": "donor",
+      "stack": "Node.js / Express / TypeScript / Kaboom.js",
+      "audience": "Mobile world/sprite builder, games and journal; not verified as an agent world",
+      "contains": "Mobile-first world builder; JSON specs into games, playable /play output, JupyterLite journal, API routes, Termux setup, sprites",
+      "gap": "Not verified live; not integrated into Worlds catalog UI or shared world; ZIP includes embedded git/Replit state",
+      "source": "https://drive.google.com/file/d/1RPGsH9N9UgmZNST6TdgtzyoMUasLVNY2/view",
+      "inspection": "ZIP README, package.json, tree and src/server.ts inspected"
     }
   ]
 }
